@@ -1,33 +1,33 @@
-.welcome {
-    /* width: 75%; */
+.expertise {
     margin: 0 auto;
     padding-top: 2rem;
-  }
+}
   
-  .welcome hr {
+  .expertise hr {
     border-top: 2px solid #b4b4b4;
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
   }
-  
-  /* .fa-code {
-    color: #e54d26;
-  }
-  
-  .fa-bold {
-    color: #563d7c;
-  }
-  
-  .fa-css3 {
-    color: #2163af;
-  } */
-  
-  /* .fa-code, .fa-bold, .fa-css3 {
-    font-size: 4em;
-    margin: 1rem;
-  } */
 
   .padding {
     padding-bottom: 2rem;
+  }
+
+  .expertise a {
+    text-decoration: none !important;
+    display: inline-block;
+  }
+
+  .expertise a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #13a6b1;
+    transition: all ease-in-out 300ms; 
+  }
+
+  .expertise a:hover::after {
+    width: 100%;
   }

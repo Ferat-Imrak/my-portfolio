@@ -5,26 +5,24 @@ import {
   faReact,
   faNode,
   faGithub,
-  faSass,
   faHtml5,
   faCss3,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
 
 const MyExperties = () => {
   return (
     <div id="experties">
       <div className="container-fluid padding">
-        <div className="row welcome text-center">
+        <div className="row expertise text-center">
         <hr />
           <div className="col-12">
-            <h1 className="display-4">My Expertise</h1>
+            <h1 className="display-5">My Expertise</h1>
           </div>
           <hr />
           <div className="col-12">
             <p className="lead">
-              Welcome to my Bootstrap 4 webiste tutorial! Bootstrap is a free
-              and open-source front-end library with HTML and CSS based designs.
+            For seeing more skills and endorsement that I got for these skills visit my <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/ferat-imrak/">LinkedIn</a> profile!
             </p>
           </div>
         </div>

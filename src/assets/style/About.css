@@ -1,10 +1,14 @@
 .profile img {
-    border-radius: 80px;
+    border-radius: 20px;
     box-shadow: 8px 8px 10px #aaa;
 }
 
 .lead {
     margin-top: 20px;
+}
+
+h1 {
+    color: #13a6b1;
 }
 
 @media (max-width: 768px) {

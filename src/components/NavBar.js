@@ -7,13 +7,13 @@ const NavBar = () => {
   return (
     <div id="home-page">
       <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div className="container-fluid">
+        <div className="container-fluid active">
           <Link
             activeClass="active"
             to="home-page"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-44}
             duration={500}
             className="navbar-brand logo"
           >
@@ -38,7 +38,7 @@ const NavBar = () => {
                   to="home-page"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-44}
                   duration={500}
                   className="nav-link"
                 >
@@ -51,7 +51,7 @@ const NavBar = () => {
                   to="aboutme"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-70}
                   duration={500}
                   className="nav-link"
                 >
@@ -64,11 +64,11 @@ const NavBar = () => {
                   to="experties"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-44}
                   duration={500}
                   className="nav-link"
                 >
-                  My Experties
+                  My Expertises
                 </Link>
               </li>
               <li className="nav-item">
@@ -77,7 +77,7 @@ const NavBar = () => {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-75}
                   duration={500}
                   className="nav-link"
                 >
@@ -90,11 +90,11 @@ const NavBar = () => {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-44}
                   duration={500}
                   className="nav-link"
                 >
-                  Connact Me
+                  Contact Me
                 </Link>
               </li>
             </ul>

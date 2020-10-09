@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="row welcome text-center padding">
       <hr />
         <div className="col-12">
-          <h1>Connect Me</h1>
+          <h1 className="display-5">Get in Touch</h1>
         </div>
         <hr />
         <div className="col-12 social padding">

@@ -7,7 +7,7 @@ const About = () => {
     <div className="container-fluid padding" id="aboutme">
       <div className="row welcome text-center">
         <div className="col-12">
-          <h1 className="display-4">About Me</h1>
+          <h1 className="display-5 mt-4">About Me</h1>
         </div>
         <hr />
         <div class="col-lg-6 profile">
@@ -15,16 +15,13 @@ const About = () => {
         </div>
         <div className="col-lg-6">
           <p className="lead">
-            Accomplished Front-End Web Developer with nearly 5 years experience
-            building successful single page applications with the modern
-            technologies like <b>ReactJS, Redux, JavaScript, HTML, CSS, SCSS</b> etc.
+          Accomplished Front-End Web Developer with nearly 5 years of experience building successful single-page applications with modern technologies like ReactJS, Redux, JavaScript, HTML, CSS, SCSS, etc.
             Proven ability in building smooth User Interface and creating
-            <b>RESTful APIs</b> that can deliver <b>JSON</b> or <b>XML</b> content. Proficient in a
-            wide range or <b>Building tools, Testing tools</b>, and <b>Version control
-            tools</b>. Continuous learner that keeps up on new technologies and
-            changes to languages and frameworks like <b>ECMAScirpt(ES6, ES7), React
-            16 etc</b>. Detail knowledge of deployment on various web services like
-            AWS, Heroku. Experience with <b>AWS S3, EC2 and Lambda.</b>
+            RESTful APIs that can deliver JSON or XML content. Proficient in a
+            wide range of Building Tools, Testing Tools, and Version control tools. A continuous learner that keeps up on new technologies and
+            changes to languages and frameworks like ECMAScript(ES6, ES7), React
+            16 etc. Detail knowledge of deployment on various web services like
+            AWS, Heroku. Experience with AWS S3, EC2, and Lambda.
           </p>
         </div>
       </div>
