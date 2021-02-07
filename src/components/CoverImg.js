@@ -20,7 +20,7 @@ const ImageSlider = () => {
               </i>
             </h5>
             <a
-              href="https://github.com/jiro1/resume/raw/master/Ferat%20Imrak's%20Resume%20copy.docx"
+              href="https://github.com/jiro1/resume/blob/master/Ferat%20Imrak's%20Resume.docx?raw=true"
               download
             >
               <button type="button" className="btn btn-outline-light btn-lg">
